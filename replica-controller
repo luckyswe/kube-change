@@ -16,7 +16,4 @@ Pod Template:
     Environment:  <none>
     Mounts:       <none>
   Volumes:        <none>
-Events:
-  Type    Reason            Age   From                    Message
-  ----    ------            ----  ----                    -------
-  Normal  SuccessfulDelete  9m2s  replication-controller  Deleted pod: hello-rc-l52q9
+Events:           <none>
