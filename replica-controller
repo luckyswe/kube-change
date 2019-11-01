@@ -4,8 +4,8 @@ Selector:     app=hello-world
 Labels:       app=hello-world
 Annotations:  kubectl.kubernetes.io/last-applied-configuration:
                 {"apiVersion":"v1","kind":"ReplicationController","metadata":{"annotations":{},"name":"hello-rc","namespace":"default"},"spec":{"replicas"...
-Replicas:     5 current / 5 desired
-Pods Status:  5 Running / 0 Waiting / 0 Succeeded / 0 Failed
+Replicas:     4 current / 4 desired
+Pods Status:  4 Running / 0 Waiting / 0 Succeeded / 0 Failed
 Pod Template:
   Labels:  app=hello-world
   Containers:
@@ -16,4 +16,7 @@ Pod Template:
     Environment:  <none>
     Mounts:       <none>
   Volumes:        <none>
-Events:           <none>
+Events:
+  Type    Reason            Age   From                    Message
+  ----    ------            ----  ----                    -------
+  Normal  SuccessfulDelete  53s   replication-controller  Deleted pod: hello-rc-l52q9
