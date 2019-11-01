@@ -19,4 +19,4 @@ Pod Template:
 Events:
   Type    Reason            Age   From                    Message
   ----    ------            ----  ----                    -------
-  Normal  SuccessfulDelete  53s   replication-controller  Deleted pod: hello-rc-l52q9
+  Normal  SuccessfulDelete  9m2s  replication-controller  Deleted pod: hello-rc-l52q9
