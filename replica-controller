@@ -1,0 +1,19 @@
+Name:         hello-rc
+Namespace:    default
+Selector:     app=hello-world
+Labels:       app=hello-world
+Annotations:  kubectl.kubernetes.io/last-applied-configuration:
+                {"apiVersion":"v1","kind":"ReplicationController","metadata":{"annotations":{},"name":"hello-rc","namespace":"default"},"spec":{"replicas"...
+Replicas:     5 current / 5 desired
+Pods Status:  5 Running / 0 Waiting / 0 Succeeded / 0 Failed
+Pod Template:
+  Labels:  app=hello-world
+  Containers:
+   hello-pod:
+    Image:        nginx:latest
+    Ports:        80/TCP, 8080/TCP
+    Host Ports:   0/TCP, 0/TCP
+    Environment:  <none>
+    Mounts:       <none>
+  Volumes:        <none>
+Events:           <none>
