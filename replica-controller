@@ -17,6 +17,6 @@ Pod Template:
     Mounts:       <none>
   Volumes:        <none>
 Events:
-  Type    Reason            Age   From                    Message
-  ----    ------            ----  ----                    -------
-  Normal  SuccessfulCreate  5m8s  replication-controller  Created pod: hello-rc-td86v
+  Type    Reason            Age    From                    Message
+  ----    ------            ----   ----                    -------
+  Normal  SuccessfulCreate  5m50s  replication-controller  Created pod: hello-rc-td86v
