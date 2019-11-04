@@ -1,2 +1,2 @@
-NAME       DESIRED   CURRENT   READY   AGE
-hello-rc   5         5         1       3d11h
+NAME       DESIRED   CURRENT   READY  
+hello-rc   5         5         1      
