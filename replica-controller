@@ -5,7 +5,7 @@ Labels:       app=hello-world
 Annotations:  kubectl.kubernetes.io/last-applied-configuration:
                 {"apiVersion":"v1","kind":"ReplicationController","metadata":{"annotations":{},"name":"hello-rc","namespace":"default"},"spec":{"replicas"...
 Replicas:     5 current / 5 desired
-Pods Status:  4 Running / 1 Waiting / 0 Succeeded / 0 Failed
+Pods Status:  5 Running / 0 Waiting / 0 Succeeded / 0 Failed
 Pod Template:
   Labels:  app=hello-world
   Containers:
@@ -19,4 +19,4 @@ Pod Template:
 Events:
   Type    Reason            Age   From                    Message
   ----    ------            ----  ----                    -------
-  Normal  SuccessfulCreate  8s    replication-controller  Created pod: hello-rc-td86v
+  Normal  SuccessfulCreate  69s   replication-controller  Created pod: hello-rc-td86v
