@@ -19,4 +19,4 @@ Pod Template:
 Events:
   Type    Reason            Age   From                    Message
   ----    ------            ----  ----                    -------
-  Normal  SuccessfulCreate  16m   replication-controller  Created pod: hello-rc-td86v
+  Normal  SuccessfulCreate  18m   replication-controller  Created pod: hello-rc-td86v
