@@ -8,7 +8,7 @@ IP:                       10.98.125.162
 Port:                     <unset>  80/TCP
 TargetPort:               80/TCP
 NodePort:                 <unset>  30001/TCP
-Endpoints:                
+Endpoints:                10.32.0.6:80,10.32.0.7:80,10.32.0.8:80
 Session Affinity:         None
 External Traffic Policy:  Cluster
 Events:                   <none>
